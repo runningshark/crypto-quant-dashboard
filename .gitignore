@@ -1,0 +1,40 @@
+# ---- 真实配置（含密钥，切勿提交）----
+config.py
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 运行时生成的缓存 / 数据产物 ----
+*_cache.json
+macrofeed_cache.json
+hongbao_cache.json
+calib_test.json
+coins_analysis.json
+combat_backtest.json
+market_regime.json
+model_zoo.json
+model_zoo_fund.json
+signal_lever_test.json
+softhold_backtest.json
+vegas_backtest.json
+wonky_scan.json
+discipline.json
+paper_ledger.json
+paper_trades*.jsonl
+predict_data.jsonl
+funding_trades.jsonl
+round_prices.csv
+*.ubj
+
+# ---- 个人 / 系统杂项 ----
+*.lnk
+*.bat
+desktop.ini
+Thumbs.db
+.DS_Store
